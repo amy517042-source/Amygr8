@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayurveda Store</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f9f4;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #2e7d32;
+    color: white;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://images.unsplash.com/photo-1588776814546-ec7e0b3b82f4') no-repeat center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #ffcc80;
+    border: none;
+    cursor: pointer;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-bottom: 10px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    background: #c8e6c9;
+    padding: 50px;
+    text-align: center;
+}
+
+/* ABOUT */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>Ayurveda</h1>
+    <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Natural Healing with Ayurveda</h2>
+    <p>Pure herbal remedies for a healthy life</p>
+    <button>Shop Now</button>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+        <div class="product">
+            <h3>Triphala Powder</h3>
+            <p>₹250</p>
+        </div>
+        <div class="product">
+            <h3>Ashwagandha Capsules</h3>
+            <p>₹400</p>
+        </div>
+        <div class="product">
+            <h3>Neem Tablets</h3>
+            <p>₹180</p>
+        </div>
+        <div class="product">
+            <h3>Amla Juice</h3>
+            <p>₹220</p>
+        </div>
+        <div class="product">
+            <h3>Giloy Juice</h3>
+            <p>₹300</p>
+        </div>
+        <div class="product">
+            <h3>Herbal Hair Oil</h3>
+            <p>₹350</p>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+    <h2>What Our Customers Say</h2>
+    <p>"Amazing quality products! My health improved naturally."</p>
+    <strong>- Happy Customer</strong>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Ayurveda is an ancient system of natural healing. Our store provides
+        authentic herbal products made with traditional methods to ensure
+        purity and effectiveness.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder
